@@ -38,7 +38,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: terraform-plan
-        path: pterraform.plan
+        path: terraform.plan
 
   terraform-apply:
     name: 'Terraform Test Apply'
